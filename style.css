@@ -1,0 +1,40 @@
+
+
+.container	{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+@keyframes colorChange {
+	0%{
+		color: #000;
+		font-size: 32px;
+	}
+
+		20%{
+		color: red;
+		font-size: 40px;
+	}
+
+		40%{
+		color: #000;
+		font-size: 32px;
+	}
+
+		60%{
+		color: red;
+		font-size: 40px;
+	}
+
+		80%{
+		color: #000;
+		font-size: 32px;
+	}
+
+		100%{
+		color: red;
+		font-size: 40px;
+	}
+}
